@@ -1,0 +1,51 @@
+.Header-main {
+    min-height: -webkit-fill-available;
+    background-color: #FBDC3A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Header-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.Header-text-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Header-text-subtitle {
+    margin: 20px 0px 20px 0;
+    font-weight: 400;
+    font-size: 21px;
+    color: #313841;
+
+    p {
+        font-weight: 400;
+        font-size: 21px;
+        color: #313841;
+        margin: auto;
+      }
+}
+
+.Header-text {
+    color: #555;
+    font-weight: 300;
+    margin-bottom: 40px;
+
+    p {
+        color: #555555;
+        font-weight: 300;
+        margin: auto;
+      }
+}
+
+.Header-icon {
+    display: flex;
+    justify-content: space-around;
+}

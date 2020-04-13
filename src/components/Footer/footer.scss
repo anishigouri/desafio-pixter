@@ -1,0 +1,46 @@
+.Footer-main {
+    background-color: #555;
+    display: flex;
+    flex-direction: column;
+
+    .Footer-title {
+        text-align: center;
+        margin-top: 50px;
+        h3 {
+            color: #FBDC3A;
+            font-weight: bold;
+        }
+
+        p {
+            margin: auto;
+            color: white;
+        }
+    }
+
+    .Footer-icons {
+
+        text-align: center;
+
+        svg {
+            margin: 15px;
+        }
+    }
+
+    .Footer-addresses {
+        display: flexbox;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        padding: 0;
+        margin: 10px 0;
+        list-style: none;
+        width: auto;
+        -webkit-flex-flow: row wrap;
+        justify-content: flex-start;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-align-items: stretch;
+        align-items: stretch;
+        box-sizing: border-box;
+    }
+}

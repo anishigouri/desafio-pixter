@@ -1,0 +1,26 @@
+.Newsletter-main {
+    margin-bottom: 50px;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+    align-items: bottom;
+}
+
+.Newsletter-button {
+    background-color: #FBDC3A !important;
+}
+
+.Newsletter-form {
+    input {
+        &.error {
+            background-color: #ffebee;
+            border-color: #C10000;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .Newsletter-button {
+        margin-top: 10px;
+    }
+}

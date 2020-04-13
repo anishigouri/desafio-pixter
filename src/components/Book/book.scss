@@ -1,0 +1,79 @@
+
+
+
+.Books-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    .Books-title {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+
+        h3 {
+            margin-bottom: 20px;
+            margin-top: 50px;
+            font-weight: bold;
+        }
+
+        p {
+            margin: auto;
+        }
+        margin-bottom: 50px;
+    }
+}
+
+.BookCard-main {
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #343a40;
+
+    -webkit-box-shadow: 6px 7px 11px -4px rgba(105,105,105,1);
+    -moz-box-shadow: 6px 7px 11px -4px rgba(105,105,105,1);
+    box-shadow: 6px 7px 11px -4px rgba(105,105,105,1);
+    border-bottom: 7px solid #FBDC3A;
+
+    &:hover {
+        background-color: #bdbdbd;
+    }
+
+}
+
+.BookInfoModa-main {
+    margin-top: 20px;
+    color: #343a40;
+    align-items: center;
+
+    .BookInfoModal-title {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .BookInfoModal-author {
+        margin-top: 5px;
+        font-size: 13px;
+    }
+    
+    .BookInfoModal-date {
+        font-size: 13px;
+    }
+    
+    .BookInfoModal-description {
+        margin-top: 15px;
+        font-weight: 500;
+        max-height: 220px;
+        overflow-y: auto;
+        font-size: 14px;
+    }
+}

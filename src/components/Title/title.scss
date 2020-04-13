@@ -1,0 +1,24 @@
+.Title__text {
+    font-size: 1.9rem;
+    letter-spacing: 1.8px;
+    color: #282828;
+    opacity: 1;
+    font-weight: 500;
+}
+
+.Title__line {
+    background-color: #FBDC3A;
+    height: 5px;
+    width: 41px;
+}
+
+.Title__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Title__fields {
+    display: flex;
+    align-items: center;
+}
